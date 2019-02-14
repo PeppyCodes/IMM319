@@ -3,7 +3,8 @@
 @import 'responsive';
 @import 'theme_color';
 @import 'variables';
-
+//@import "../fonts/fontawesome-scss/fontawesome";
+//@import "../fonts/fontawesome-scss/solid";
 /* Master Stylesheet */
 
 /* :: 1.0 Import Fonts */
@@ -1697,16 +1698,16 @@ input:focus {
             letter-spacing: 2px;
             text-transform: uppercase;
             color: $pri-color;
-            &:last-child {
-                margin-left: 20px;
-                &::after {
-                    content: '/';
-                    position: absolute;
-                    top: 0;
-                    left: -15px;
-                    z-index: 1;
-                }
-            }
+            //&:last-child {
+            //    margin-left: 20px;
+            //    &::after {
+            //        content: '/';
+            //        position: absolute;
+            //        top: 0;
+            //        left: -15px;
+            //        z-index: 1;
+            //    }
+            //}
             &:hover,
             &:focus {
                 color: $sec-color;

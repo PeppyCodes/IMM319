@@ -1492,14 +1492,6 @@ input:focus {
       letter-spacing: 2px;
       text-transform: uppercase;
       color: #ed3974; }
-      .post-details-content .post-meta a:last-child {
-        margin-left: 20px; }
-        .post-details-content .post-meta a:last-child::after {
-          content: '/';
-          position: absolute;
-          top: 0;
-          left: -15px;
-          z-index: 1; }
       .post-details-content .post-meta a:hover, .post-details-content .post-meta a:focus {
         color: #404040; }
   .post-details-content .post-title {
