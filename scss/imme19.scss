@@ -2531,3 +2531,20 @@ textarea.form-control {
 }
 
 /* ====== The End ====== */
+
+//Karthi SCSS Start
+
+$New_Container_Width:1200px;
+
+body {max-width: $New_Container_Width;
+    margin: auto;
+    //background-image: linear-gradient(to right bottom, #ff6138, #ff8539, #ffa444, #ffc257, #ffdd72, #ece37a, #d9e785, #c7ea92, #9ed98d, #76c88b, #4bb689, #00a388);
+}
+
+.container {width: $New_Container_Width;
+    max-width: $New_Container_Width;
+    padding: 0;}
+
+footer {.container{    max-width: $New_Container_Width - 100px;}}
+
+//Karthi SCSS End
